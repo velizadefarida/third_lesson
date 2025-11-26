@@ -9,7 +9,7 @@ Vector::Vector(Point xx, Point yy):
 
 int Vector::x() const
 {
-  return data[1].x() - data[0].();
+  return data[1].x() - data[0].x();
 }
 
 int Vector::y() const
